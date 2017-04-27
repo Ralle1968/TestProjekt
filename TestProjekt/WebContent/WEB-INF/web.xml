@@ -24,4 +24,10 @@
     <servlet-name>TestServlet</servlet-name>
     <url-pattern>/TestServlet</url-pattern>
   </servlet-mapping>
+  <listener>
+    <listener-class>de.testprojekt.LifeCycleListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>de.testprojekt.ServletContextAttributListener</listener-class>
+  </listener>
 </web-app>
